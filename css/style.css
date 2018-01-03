@@ -1,10 +1,12 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #f2f2f2;
+  color: #000;
+  font-size: 18px;
+  line-height: 27px;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #333;
   float: left;
   position: fixed;
   width: 100%;
@@ -32,6 +34,31 @@ nav {
   float: right;
 }
 
+
+h1 {
+  font-size: 2.4em;
+  line-height: 2em;
+}
+
+h3 {
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
+figcaption {
+  font-size: 1em;
+  line-height: .8em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #f15a24;
+}
+
 ul {
   list-style-type: none;
   float: right;
@@ -39,6 +66,7 @@ ul {
 
 li {
   float: right;
+  font-size: 1.5em;
   padding: 30px;
 }
 
